@@ -13,10 +13,10 @@ def recursive_reverse_array(a, start, end):
     a[start], a[end] = a[end], a[start]
     recursive_reverse_array(a, start + 1, end - 1)
 
-
-a = list(map(int, input("Please enter the comma seperated list").split(",")))
-print("Before reversing the list ", a)
-reverse_array(a, 0, len(a)-1)
-print("After reversing the list", a)
-recursive_reverse_array(a, 0, len(a)-1)
-print("After recursive reversing the list", a)
+# driver function
+# a = list(map(int, input("Please enter the comma seperated list").split(",")))
+# print("Before reversing the list ", a)
+# reverse_array(a, 0, len(a)-1)
+# print("After reversing the list", a)
+# recursive_reverse_array(a, 0, len(a)-1)
+# print("After recursive reversing the list", a)
